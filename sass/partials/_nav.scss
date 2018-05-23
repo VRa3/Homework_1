@@ -1,0 +1,51 @@
+.header__navbar{
+  background-color: #282828;
+}
+
+.navbar-light{
+  background-color: #282828;
+  color: #ffffff !important;
+}
+
+.nav-link{
+  font-size: 13px;
+  color: #ffffff !important;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.navbar-collapse{
+  text-align: center;
+}
+
+.header__logo{
+  font-size: 40px;
+  color: white;
+  &:hover{
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.header__logo--my{
+  font-weight: 300;
+}
+
+.header__logo--way{
+  font-weight: 600;
+}
+
+.header__logo--dot{
+  color: $orange-color;
+}
+
+@media (min-width: 992px) {
+.navbar-collapse{
+  display: flex;
+  justify-content: flex-end;
+}
+
+  
+}

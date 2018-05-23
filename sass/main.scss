@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+@import "partials/_variables.scss";
+@import "partials/_nav.scss";
+@import "partials/_slider.scss";
+@import "partials/_love.scss";
+
+body{
+  font-family: 'Lato';
+  color: #ffffff;
+}
+
+.header{
+  background-color: #282828;
+  height: 930px;
+}
+
+  
+@media (min-width: 768px) {
+  .header{
+    max-height: 700px;
+    position: relative;
+  }
+}
